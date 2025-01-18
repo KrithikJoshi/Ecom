@@ -6,7 +6,9 @@ import (
 	"log"
 	"net/http"
 	"github.com/gorilla/mux"
-	
+	"github.com/spf13/viper"
+	"gorm.io/driver/mysql"
+	"gorm.io/gorm"
 )
 
 type Article struct {
